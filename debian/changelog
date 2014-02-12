@@ -1,3 +1,20 @@
+libxkbfile (1:1.0.8-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove David Nusinow from Uploaders.
+  * Don't require (fake)root for debian/rules clean.
+  * Build-Depend on newer xutils-dev for util-macros 1.8.
+  * Build for multiarch.
+
+ -- Julien Cristau <jcristau@debian.org>  Sat, 21 Apr 2012 00:01:05 +0200
+
+libxkbfile (1:1.0.7-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch from --list-missing to --fail-missing for additional safety.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 06 Nov 2010 15:54:11 +0100
+
 libxkbfile (1:1.0.6-2) unstable; urgency=low
 
   [ Julien Cristau ]
